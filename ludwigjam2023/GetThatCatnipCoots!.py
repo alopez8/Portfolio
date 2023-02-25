@@ -571,7 +571,7 @@ screen = pygame.Surface([design_res_x, design_res_y])
 clock = pygame.time.Clock()
 
 #initialize and set up the timer event
-timer_init = 60
+timer_init = 90
 timer = timer_init
 pygame.time.set_timer(pygame.USEREVENT, 1000)
 
