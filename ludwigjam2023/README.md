@@ -40,7 +40,7 @@ The 'fonts'folder should contain one file:
 1. Ac437_IBM_VGA_8x16.ttf
 
 Install with pyinstaller using the command:
-$ pyinstaller -w --add-data 'sounds;./sounds' --add-data 'fonts;./fonts' GetThatCatnipCoots!.py
+$ pyinstaller -w --onedir --add-data 'sounds;./sounds' --add-data 'fonts;./fonts' GetThatCatnipCoots!.py
 
 The executable GetThatCatnipCoots!.exe will be in the './dist/GetThatCatnipCoots!' directory
 
