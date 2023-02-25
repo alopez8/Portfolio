@@ -89,7 +89,7 @@ locations = ['menu','floor','drapes','counter','endings','credits'] #DONE
 
 #Define location message that constantly displays 
 text_location_dict = { #DONE
-                  'menu': 'This is a text based adventure game. None of the inputs are case sensitive.+Type HELP if you get stuck+Type START to begin the game+Type EXIT to end the program+Type CREDITS to view the credits+Type ENDINGS to view the endings you have achieved',
+                  'menu': 'This is a text based adventure game. None of the inputs are case sensitive.+Type HELP if you get stuck+Type START to begin the game. Type QUIT to return to this screen.+Type EXIT to end the program+Type CREDITS to view the credits+Type ENDINGS to view the endings you have achieved',
                   'floor': 'You are on the kitchen floor.+You can smell CATNIP on top of the COUNTER.+You hear footsteps coming down the hall.',
                   'drapes': "You are hanging on the DRAPES.+The COUNTER is just within your reach.", 
                   'counter': "You are on top of the COUNTER.+The CATNIP smell is very strong.+It seems to be coming from the CABINET...",
