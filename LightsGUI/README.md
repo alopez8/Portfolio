@@ -68,8 +68,9 @@ Scan devices and save device information.
 6. Click the 'Save Info' button to save the device information into a text file.
 
 Utilize device information file to use devices.
+
 7. Click the 'Change Devices' button.
-8. Click the 'Load Devices from File' button to access the txt files in './devices'
+8. Click the 'Load Devices from File' button to access the txt files in './devices'.
     8.5 If the desired device has availability 'N', please make sure it is powered and click 'Recheck Availability'.
 9. Select devices you wish to use via the individual device checkboxes or the Control By Group Menubox.
 10. Enter the necessary RGB-Brightness values for the desired function (if applicable)
