@@ -23,17 +23,26 @@ This information is then saved to a 'txt' file in the './devices' directory. Thi
 The txt file is NECESSARY to use the other functions of the program (change color/brightness, etc.).
 utils.py contains several functions used by LightsGUI.py
 
-Used flux_led library to control bulbs
+Used flux_led library to control bulbs (https://github.com/Danielhiversen/flux_led).
+
 Used tkinter library to build the gui.
+
 Used pyinstaller to create a one file executable to run on windows.
 
 Device Functions
+
 'Change Colors' -- Required: R (0-255), G (0-255), B (0-255). Optional: Brightness (0-100) percentage. Set the color of the selected devices.
+
 'Set Warm White' -- Optional: Brightness (0-100). Set the color of the selected devices to 'Warm White' (CCT temp 2700).
+
 'Set Cool White' -- Optional: Brightness (0-100). Set the color of the selected devices to 'Cool White' (CCT temp 6500).
+
 'Turn Devices Off' -- Turn the selected devices off. 
+
 'Turn Devices On' -- Turn the selected devices on.
+
 'Change Brightness' -- Required: Brightness (0-100) percentage. Set the brightness of the selected devices.
+
 
 ---------------------------------------------------------
 
